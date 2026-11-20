@@ -35,10 +35,8 @@ extensions = ['sphinxcontrib.httpdomain','sphinxcontrib.plantuml','sphinxcontrib
 import os as _os
 plantuml = _os.environ.get("PLANTUML", "plantuml")
 plantuml_output_format = 'svg'
-templates_path = ['_templates']
-html_js_files = [
-    "osia-sidebar.js",
-]
+templates_path = []
+html_js_files = []
 
 exclude_patterns = ['_*.rst', '*/_*.rst']
 
@@ -112,7 +110,7 @@ html_show_sourcelink = False
 copyright = '2026, Mohamed ElBendary'
 html_context = {'project':project, 'version':release, 'copyright': copyright}
 html_last_updated_fmt = '%b %d, %Y'
-html_extra_path = ['yaml']
+html_extra_path = []
 
 #
 # Latex/PDF Output Configuration
