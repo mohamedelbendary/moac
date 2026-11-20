@@ -14,26 +14,16 @@ Anything you contribute is offered as input to the Working Group's work and may 
 
 ---
 
-## About this template
-
-*When a work item is created from this template, replace this whole section with the metadata of the work item (see the skeleton below), a short description, and the link to its published site.*
-
-This is the shared TIDA specification template: one source that builds a modern web page and a print-ready PDF, with support for diagrams and auto-generated API references. The pages below are produced by this repository, so they double as the template's documentation.
-
-**See the template live:** [Web page](https://fg-tida.github.io/spec-template/) · [PDF](https://fg-tida.github.io/spec-template/specification.pdf)
-
-The document sources are in `src/doc/` (front matter in `index.rst`, chapters in `chapters/`). To modify the template or to learn how to build and preview it, see [CONTRIBUTING.md](CONTRIBUTING.md).
-
-Built with [CUTEspecs](https://github.com/cutespecs/cutespecs).
-
-### Metadata skeleton for your work item
+## Multi-Organizational Operational Coordination for Agentic AI (MOAC)
 
 | Field | Value |
 | --- | --- |
-| Title | |
-| Acronym | |
-| Authors | |
-| Working Group | |
-| DataTracker record | |
-| Status | |
-| Published site | |
+| Title | Multi-Organizational Operational Coordination for Agentic AI |
+| Acronym | MOAC |
+| Authors | Mohamed ElBendary (individual capacity) |
+| Working Group | No working group yet (submitted for dispatch by the incubation committee) |
+| DataTracker record | to be assigned on submission |
+| Status | Contribution to the 1st FG-TIDA meeting, Paris, 30 November to 1 December 2026; version 0.1 |
+| Published site | not yet published |
+
+A contribution proposing, as a standardization object, the process by which independent organizations coordinate the operation of a shared agentic AI system and keep the resulting allocation of responsibility enforceable at runtime. Sources are in `src/doc/` (front matter in `index.rst`, chapters in `chapters/`). Build with `sphinx-build -b html src/doc target/html`.
